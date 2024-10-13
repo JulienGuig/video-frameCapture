@@ -41,7 +41,7 @@ int main() {
 	VideoCapture cap(path); //video
 	unsigned int vidFrame = 0;
 
-	// Check if camera opened successfully
+	// Check if video opened successfully
 	if (!cap.isOpened()) {
 		cout << endl << "--------------------------" << endl;
 		cout << "Error opening video stream or file" << endl;
